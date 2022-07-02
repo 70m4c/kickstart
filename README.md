@@ -41,7 +41,7 @@ Generally speaking, you will follow these steps:
 4. Add `inst.ks` to the configuration options. _For example, if you are 
    running the web server described in step 1, append the following (using 
    your own IP address) to the boot options:_
-   `inst.ks=http://192.168.0.1:8000/9/almalinux/anaconda-ks.cfg`. 
+   `inst.ks=http://192.168.0.1:8000/9/almalinux/[profile]/anaconda-ks.cfg`. 
 6. Press \[Enter\] to begin the installation.
 
 ### iPXE
@@ -50,7 +50,8 @@ Launching Kickstart using iPXE will require providing the appropriate iPXE
 configuration file to the management system. You should only provide 
 the _Raw_ URL to the iPXE file. _For example you might provide the URL to 
 this Raw iPXE configuration file:_
-`https://raw.githubusercontent.com/70m4c/kickstart/master/9/almalinux/kickstart.ipxe`
+`https://raw.githubusercontent.
+com/70m4c/kickstart/master/9/almalinux/[profile]/kickstart.ipxe`
 
 Resources
 ---------
