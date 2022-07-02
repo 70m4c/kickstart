@@ -1,0 +1,7 @@
+#!ipxe
+
+set base http://repo.almalinux.org/almalinux/9/BaseOS/x86_64/os
+
+kernel ${base}/images/pxeboot/vmlinuz inst.ks=https://raw.githubusercontent.com/70m4c/kickstart/master/9/almalinux/development/anaconda-ks.cfg
+initrd ${base}/images/pxeboot/initrd.img
+boot
