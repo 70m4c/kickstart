@@ -53,6 +53,16 @@ this Raw iPXE configuration file:_
 `https://raw.githubusercontent.
 com/70m4c/kickstart/master/9/almalinux/[profile]/kickstart.ipxe`
 
+Shortened URLs
+--------------
+
+These shortened URLs can be used to access plain-text versions of Kickstart files.
+
+| Shortcut | Destination |
+|----------|-------------|
+| https://tinyurl.com/ks-dev | ./9/almalinux/development/anaconda-ks.cfg |
+| https://tinyurl.com/ks-srv4ans | ./9/almalinux/server-for-ansible/anaconda-ks.cfg |
+
 Resources
 ---------
 
